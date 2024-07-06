@@ -1,8 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { Navbar } from "react-bootstrap";
-import { FaUtensils } from "react-icons/fa"; // Example icons, you can replace with your own
-import { Link } from "react-router-dom"; // Import Link from react-router-dom for navigation
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"; // Import Link from react-router-dom for navigation
 
 const Footer = () => {
   return (
