@@ -40,7 +40,7 @@ body {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(4, 8fr); /* Adjust columns as needed */
+  grid-template-columns: repeat(3, 1fr); /* Adjust columns as needed */
   gap: 8px; /* Adjust gap between items */
 }
 
@@ -137,6 +137,7 @@ body {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
   gap: 1.5rem;
   width: min(95% , 70rem);
   margin-inline: auto;
@@ -163,6 +164,10 @@ p{
 .image-grid:last-child{
   grid-column-start: 3;
   grid-column-end: 5;
+=======
+  gap: 4px;
+  margin: 10px;
+>>>>>>> 85fb6f9514566774c59acb1c446fc8ca48f491f8
 }
 .gallery-item {
   text-align: center;
