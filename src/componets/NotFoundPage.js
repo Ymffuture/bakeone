@@ -24,11 +24,11 @@ const styles = {
     color: '#343a40',
   },
   title: {
-    fontSize: '25rem',
+    fontSize: '10rem',
     marginBottom: '1rem',
   },
   message: {
-    fontSize: '4.5rem',
+    fontSize: '1.8rem',
     marginBottom: '1.5rem',
   },
   link: {
