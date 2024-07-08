@@ -1,10 +1,6 @@
 import React from "react";
-<<<<<<< HEAD
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-=======
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"; // Import Link from react-router-dom for navigation
 
->>>>>>> 85fb6f9514566774c59acb1c446fc8ca48f491f8
 const Footer = () => {
   return (
     <footer className="footer">
