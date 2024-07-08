@@ -1,9 +1,5 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { Navbar } from "react-bootstrap";
-import { FaUtensils } from "react-icons/fa"; // Example icons, you can replace with your own
-import { Link } from "react-router-dom"; // Import Link from react-router-dom for navigation
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -43,10 +39,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      {/* <Navbar.Brand className="ft" as={Link} to="/">
-        <FaUtensils />
-        Sweet Dreams Bakery SDB
-      </Navbar.Brand> */}
     </footer>
   );
 };

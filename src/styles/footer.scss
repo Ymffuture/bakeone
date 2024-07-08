@@ -1,5 +1,5 @@
 /* Footer.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
   
   .footer-container {
     display: flex;
@@ -55,15 +55,17 @@
   .ft-dm{
     font-size: 40px;
     color: aqua;
-    border-radius: 20%;
-    box-shadow: 6px 5px 2px black;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #ff7e5f, #7bd9fe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     font-weight: bold;
     margin-left: 10px;
-    
+    span{
+      font-family: "Pacifico", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
   }
 
   /* Footer.scss */
@@ -73,7 +75,7 @@ $brand-color: #ff7e5f;
 .footer {
   background-color: #333;
   padding: 20px;
-  color: rgb(202, 0, 242);
+  color: rgb(147, 147, 147);
   text-align: center;
 
   

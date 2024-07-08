@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&display=swap');
 // ==========imports .scss========= 
 @import './navbar.scss';
 
@@ -10,8 +11,13 @@
 
 // End===> imports .scss============== 
 body {
-  background-color: #282c34;
-  color: #61dafb;
+  background-color: #ffffff;
+  // background-color: #282c34;
+  color: #282c34;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -19,7 +25,6 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* MenuPage.css (create a MenuPage.css file if you prefer external styles) */
 
 .menu-page {
   padding: 50px;
@@ -27,9 +32,9 @@ body {
 .menu-page h1{
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
 }
 
@@ -47,21 +52,20 @@ body {
   width: 100%;
   max-width: 300px; /* Adjust max width of images */
   height: auto;
-  border-radius: 19px
+  border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
 }
 
 
 // home
 
-/* HomePage.css */
 /* HomePage.scss */
 
 .hero-section {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Adjust the height as needed */
-
+  height: 100vh;
+  border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
   /* Pseudo-element for dim effect */
   &::before {
     content: '';
@@ -70,17 +74,18 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    background-color: rgba(6, 6, 6, 0.5);
     z-index: 1;
+    border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
   }
 
   /* Content inside the hero section */
   .hero-content {
     position: relative;
-    z-index: 2; /* Ensures the content is above the dim effect */
+    z-index: 2;
     color: white;
     text-align: center;
-    padding-top: 50px; /* Adjust the padding as needed */
+    padding-top: 50px; 
   }
 }
 
@@ -113,16 +118,17 @@ body {
   margin-bottom: 10px;
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
 }
 .about-section p{
   padding: 40px;
   text-align: center;
   margin: 8px;
-  background: #080808bb;
+  background:white;
+  font-family: "Pacifico", cursive;
 }
 
 .gallery-section {
@@ -130,11 +136,34 @@ body {
 }
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4px;
-  margin: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: min(95% , 70rem);
+  margin-inline: auto;
+  padding-block: 2rem;
+  img{
+    border-radius: 8px;
+    fill: cadetblue;
+    width: 100%;
+    border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
+    &:hover{
+      opacity: .6;
+      cursor: pointer;
+    }
+  }
+p{
+  color: rgb(0, 0, 0);
+  font-family: "Pacifico", cursive;
 }
-
+}
+.grid-col{
+ grid-column: span 2;
+ 
+}
+.image-grid:last-child{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
 .gallery-item {
   text-align: center;
 }
@@ -165,7 +194,7 @@ body {
 }
 
 .hero-text {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.661);
   padding: 20px;
 }
 
@@ -177,21 +206,21 @@ body {
   margin-bottom: 10px;
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
 }
 .story-section p{
   padding: 40px;
   text-align: center;
   margin: 8px;
-  background: #080808bb;
+  background: #fefefebb;
 }
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Adjust columns as needed */
-  gap: 20px; /* Adjust gap between items */
+  gap: 20px; 
 }
 
 .team-member {
@@ -236,9 +265,9 @@ body {
   margin-bottom: 20px;
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
 }
 
@@ -247,7 +276,7 @@ body {
   padding: 40px;
   text-align: center;
   margin: 8px;
-  background: #080808bb;
+  background:white;
 }
 
 .contact-info {
@@ -258,9 +287,9 @@ body {
   margin-bottom: 10px;
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
 }
 
@@ -269,6 +298,12 @@ body {
 }
 
 
+/* Add this to your CSS file */
+.center-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* RecipePage.css */
@@ -289,15 +324,15 @@ body {
   margin-bottom: 20px;
   text-align: center;
   align-items: center;
-  background: rgba(246, 234, 123, 0.391);
+  background: rgba(181, 181, 181, 0.437);
   padding: 20px;
-  border-left: #61dafb solid 80px;
+  border-left: #282c34 solid 80px;
   color: #080808;
   p{
     padding: 40px;
     text-align: center;
     margin: 8px;
-    background: #080808bb;
+    background:white;
   }
 }
 

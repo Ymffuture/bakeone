@@ -10,7 +10,7 @@ import HomePage from './componets/HomePage'; // Adjusted import path
 import Footer from './componets/Footer'
 import ContactPage from './componets/ContactPage'
 import Recipe from './componets/Recipe'
-
+import NotFoundPage from './componets/NotFoundPage';
 function App() {
   return (
     <Router>
@@ -22,6 +22,7 @@ function App() {
           <Route path="/AboutPage" element={<AboutPage />} />
           <Route path="/ContactPage" element={<ContactPage />} />
           <Route path="/Recipe" element={<Recipe />} />
+          <Route path="/NotFoundPage" element={<NotFoundPage />} />
         </Routes>
         <Footer/>
       </div>
