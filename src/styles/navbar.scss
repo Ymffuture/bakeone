@@ -6,9 +6,12 @@
     } 
    
 }
-.link{
-    color: #61dafb !important;
+.link:hover{
+    color: #ff7e5f!important;
 }
 .link-w{
-    color: #8b8b8b;
+    background: linear-gradient(90deg, #ff7f5f6e, #7bd9fe5f);
+    -webkit-text-fill-color: transparent;
+  border-radius: 40px;
+
 }

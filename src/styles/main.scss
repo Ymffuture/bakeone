@@ -136,11 +136,13 @@ body {
 }
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(3, 1fr));
   gap: 1.5rem;
   width: min(95% , 70rem);
   margin-inline: auto;
   padding-block: 2rem;
+  justify-content: center;
+ 
   img{
     border-radius: 8px;
     fill: cadetblue;
