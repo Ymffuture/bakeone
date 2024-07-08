@@ -39,6 +39,13 @@ const Footer = () => {
             <FaInstagram />
           </a>
         </div>
+        <p>&copy; 2024 @BakeOne | created by  <a
+            href="https://learniq.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          Future 
+          </a> using react.</p>
       </div>
     </footer>
   );
