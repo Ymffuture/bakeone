@@ -10,6 +10,7 @@ const Footer = () => {
           <a href="/MenuPage">Menu</a>
           <a href="/AboutPage">About</a>
           <a href="/ContactPage">Contact</a>
+          <a className="ai" href="https://al-ai.netlify.app/">ALai</a>
         </div>
         <div className="footer-contact">
           <p>123 Drieziek 4, Orange Farm, Johannesburg South, 1841</p>
