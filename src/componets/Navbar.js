@@ -29,7 +29,7 @@ export default function ShowNavbar() {
           <Nav.Link as={Link} to="/Recipe" className='link'>Recipe</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link as={Link} to="/AboutPage">About</Nav.Link>
+          <Nav.Link as={Link} to="/AboutPage">About Us</Nav.Link>
           <Nav.Link as={Link} to="/ContactPage">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
