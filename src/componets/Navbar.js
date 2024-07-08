@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom fo
 
 export default function ShowNavbar() {
   return (
-    <Navbar className='navbar-color' bg="dark" variant="dark" expand="lg" sticky="bottom" style={{ fontSize: '24px' }}>
+    <Navbar className='navbar-color' bg="dark" variant="dark" expand="lg" sticky="bottom" style={{fontSize: '24px'}}>
     <Container>
       <Navbar.Brand className='ft-dm' as={Link} to="/">
+      <div className='logo'>
+      <img src='/img/Logo M.png' alt='Logo'/>
+      </div>
       <span>B</span>ake<span>O</span>ne
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='top' />
