@@ -15,9 +15,9 @@ const MenuPage = () => {
     <div className="menu-page">
       <h1>Menu</h1>
       <div className="image-grid">
-        {images.map((imageUrl, index) => (
+        {images.map((avatar, index) => (
           <div key={index} className="menu-item">
-            <img src={imageUrl} alt={`Menu Item ${index + 1}`} />
+            <img src={avatar} alt={`Menu Item ${index + 1}`} />
           </div>
         ))}
       </div>

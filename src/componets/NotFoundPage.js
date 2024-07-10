@@ -38,6 +38,7 @@ const styles = {
     backgroundColor: '#282c34',
     padding: '8px',
     borderRadius: '4px'
+    
   },
 };
 

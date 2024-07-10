@@ -1,16 +1,19 @@
-import React from 'react';
-// index.js or App.js
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ShowNavbar from "./componets/Navbar";
+import MenuPage from "./componets/MenuPage";
+import AboutPage from "./componets/AboutPage";
+import HomePage from "./componets/HomePage";
+import Footer from "./componets/Footer";
+import ContactPage from "./componets/ContactPage";
+import Recipe from "./componets/Recipe";
+import NotFoundPage from "./componets/NotFoundPage";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ShowNavbar from './componets/Navbar'; // Assuming Navbar component path
-import MenuPage from './componets/MenuPage'; // Adjusted import path
-import AboutPage from './componets/AboutPage'; // Adjusted import path
-import HomePage from './componets/HomePage'; // Adjusted import path
-import Footer from './componets/Footer'
-import ContactPage from './componets/ContactPage'
-import Recipe from './componets/Recipe'
-import NotFoundPage from './componets/NotFoundPage';
+
+
+
+
 function App() {
   return (
     <Router>
@@ -24,7 +27,7 @@ function App() {
           <Route path="/Recipe" element={<Recipe />} />
           <Route path="/NotFoundPage" element={<NotFoundPage />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );

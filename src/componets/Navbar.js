@@ -1,7 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import { FaHome} from 'react-icons/fa'; // Example icons, you can replace with your own
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom for navigation
+import { FaHome} from 'react-icons/fa'; 
+import { Link } from 'react-router-dom'; 
+
+
+
 
 export default function ShowNavbar() {
   return (
