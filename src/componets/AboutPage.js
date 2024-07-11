@@ -15,7 +15,7 @@ const AboutPage = () => {
         className="hero-section"
         style={{
           backgroundImage:
-            "url(https://hensbreadproductions.com/wp-content/uploads/2021/09/hensbreadgif.gif)",
+            "url(https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600)",
         }}
       >
         <div className="hero-text">
