@@ -11,9 +11,6 @@ import Recipe from "./componets/Recipe";
 import NotFoundPage from "./componets/NotFoundPage";
 
 
-
-
-
 function App() {
   return (
     <Router>

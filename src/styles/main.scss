@@ -359,3 +359,48 @@ p{
 .recipe-page li {
   margin-bottom: 10px;
 }
+
+
+
+
+// MenuPage.scss
+.menu-page {
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .menu-item {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .price-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(90deg, #ff7f5f6e, #7bd9fe5f);
+      color: #0c0c0c;
+      text-align: center;
+      padding: 25px;
+      opacity: 0;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      font-weight: 800;
+      overflow: hidden;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    &:hover .price-overlay {
+      opacity: 1;
+      overflow: hidden;
+    }
+  }
+}
