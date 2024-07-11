@@ -31,9 +31,9 @@ export default function ShowNavbar() {
           </NavDropdown>
           <Nav.Link as={Link} to="/Recipe" className='link'>Recipe</Nav.Link>
         </Nav>
-        <Nav>
-          <Nav.Link as={Link} to="/AboutPage">About Us</Nav.Link>
-          <Nav.Link as={Link} to="/ContactPage">Contact</Nav.Link>
+        <Nav className='other'>
+          <Nav.Link className='other' as={Link} to="/AboutPage">About Us</Nav.Link>
+          <Nav.Link className='other2' as={Link} to="/ContactPage">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
