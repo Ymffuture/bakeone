@@ -35,7 +35,7 @@ const HomePage = () => {
         <h2>Our Creations</h2>
         <div className="image-grid grid-col">
           {images.map((image, index) => (
-            <div key={index} className="gallery-item">
+            <div key={index} className="gallery-item ">
               <img src={image.url} alt={image.title} />
               <p>{image.title}</p>
             </div>

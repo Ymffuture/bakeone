@@ -22,9 +22,11 @@ const ContactPage = () => {
           <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+  
+        <button class="button-40" role="button" type="submit">
+  <span class="text">Submit</span>
+</button>
+
       </Form>
 
       <div className="contact-info">
