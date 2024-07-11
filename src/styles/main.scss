@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&display=swap');
+
+
 // ==========imports .scss========= 
 @import './navbar.scss';
 
 @import './footer.scss';
-
 // End===> imports .scss============== 
+
+
 body {
   background-color: #ffffff;
   // background-color: #282c34;
@@ -40,8 +43,8 @@ body {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust columns as needed */
-  gap: 8px; /* Adjust gap between items */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 8px; 
 }
 
 .menu-item {
@@ -50,9 +53,9 @@ body {
 
 .menu-item img {
   width: 100%;
-  max-width: 300px; /* Adjust max width of images */
+  max-width: 300px; 
   height: auto;
-  // border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
+  
 }
 
 
@@ -65,7 +68,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  // border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
+  
   /* Pseudo-element for dim effect */
   &::before {
     content: '';
@@ -76,7 +79,7 @@ body {
     bottom: 0;
     background-color: rgba(6, 6, 6, 0.5);
     z-index: 1;
-    // border-radius: 20% 10% 20% 10% / 20% 10% 20% 10%;
+  
   }
 
   /* Content inside the hero section */
@@ -224,7 +227,7 @@ p{
 }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust columns as needed */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
 }
 
@@ -234,7 +237,7 @@ p{
 
 .team-member img {
   width: 100%;
-  max-width: 300px; /* Adjust max width of images */
+  max-width: 300px; 
   height: auto;
 }
 
